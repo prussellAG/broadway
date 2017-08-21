@@ -8,6 +8,7 @@ body {
 
 .header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
 }
 
 h1 {
@@ -39,9 +40,27 @@ p {
 
 nav {
   font-size: 18px;
-  color: white;
   list-style-tyoe: none;
+}
+
+#header a {
   display: block;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
 }
 
 footer {
@@ -53,4 +72,9 @@ footer {
 
 .copyright {
   font-size: 11px;
+  display: inline;
+}
+
+.bottom {
+  display: inline;
 }
